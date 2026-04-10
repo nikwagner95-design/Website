@@ -1,1 +1,129 @@
-# Website
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Wagners Glanzwerk</title>
+
+<style>
+
+body {
+margin:0;
+padding:0;
+background:#0f0f0f;
+color:white;
+font-family:Arial, sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+text-align:center;
+}
+
+.container {
+max-width:600px;
+padding:20px;
+}
+
+.logo {
+width:320px;
+margin-bottom:40px;
+filter:drop-shadow(0px 0px 20px rgba(255,255,255,0.2));
+}
+
+h1 {
+font-size:42px;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+.subtitle {
+font-size:18px;
+opacity:0.7;
+margin-bottom:25px;
+}
+
+.status {
+font-size:20px;
+color:#cccccc;
+margin-bottom:40px;
+}
+
+.buttons {
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.btn {
+display:inline-block;
+padding:14px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+font-size:18px;
+transition:0.2s;
+border:1px solid #333;
+}
+
+.btn:hover {
+background:#1f1f1f;
+transform:scale(1.03);
+}
+
+.footer {
+position:absolute;
+bottom:20px;
+font-size:14px;
+opacity:0.5;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<img src="logo.jpeg" class="logo">
+
+<h1>Wagners Glanzwerk</h1>
+
+<div class="subtitle">
+Fahrzeugaufbereitung & Pflege
+</div>
+
+<div class="status">
+🚧 Website befindet sich aktuell im Aufbau
+</div>
+
+<div class="buttons">
+
+<a class="btn"
+href="https://www.instagram.com/wagners_glanzwerk"
+target="_blank">
+📸 Instagram ansehen
+</a>
+
+<a class="btn"
+href="https://wa.me/491621679332"
+target="_blank">
+💬 WhatsApp schreiben
+</a>
+
+<a class="btn"
+href="mailto:Nik@wagners-glanzwerk.com">
+📧 Email senden
+</a>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Wagners Glanzwerk
+</div>
+
+</body>
+</html>
